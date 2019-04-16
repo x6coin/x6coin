@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=X6Coin
+Comment=X6Coin P2P Cryptocurrency
+Comment[fr]=X6Coin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=X6Coin, eşten eşe kriptografik sanal para birimi
+Exec=x6coin-qt %u
+Terminal=false
+Type=Application
+Icon=x6coin128
+MimeType=x-scheme-handler/x6coin;
+Categories=Office;Finance;

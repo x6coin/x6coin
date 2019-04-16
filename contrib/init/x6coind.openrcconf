@@ -1,0 +1,26 @@
+# /etc/conf.d/x6coind: config file for /etc/init.d/x6coind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/x6coin/x6coin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/x6coind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/x6coind.pid"
+
+# Where to write x6coind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/x6coind"
+
+# User and group to own x6coind process
+#BITCOIND_USER="x6coin"
+#BITCOIND_GROUP="x6coin"
+
+# Path to x6coind executable
+#BITCOIND_BIN="/usr/bin/x6coind"
+
+# Nice value to run x6coind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

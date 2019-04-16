@@ -1,0 +1,26 @@
+[Unit]
+Description=X6Coin's distributed currency daemon
+After=network.target
+
+[Service]
+User=x6coin
+Group=x6coin
+
+Type=forking
+PIDFile=/var/lib/x6coind/x6coind.pid
+
+ExecStart=/usr/bin/x6coind -daemon -pid=/var/lib/x6coind/x6coind.pid \
+          -conf=/etc/x6coin/x6coin.conf -datadir=/var/lib/x6coind
+
+ExecStop=-/usr/bin/x6coin-cli -conf=/etc/x6coin/x6coin.conf \
+         -datadir=/var/lib/x6coind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

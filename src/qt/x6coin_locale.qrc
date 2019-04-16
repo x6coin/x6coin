@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/x6coin_bg.qm</file>
+        <file alias="ca">locale/x6coin_ca.qm</file>
+        <file alias="cs">locale/x6coin_cs.qm</file>
+        <file alias="da">locale/x6coin_da.qm</file>
+        <file alias="de">locale/x6coin_de.qm</file>
+        <file alias="en">locale/x6coin_en.qm</file>
+        <file alias="en_US">locale/x6coin_en_US.qm</file>
+        <file alias="es">locale/x6coin_es.qm</file>
+        <file alias="fi">locale/x6coin_fi.qm</file>
+        <file alias="fr_FR">locale/x6coin_fr_FR.qm</file>
+        <file alias="hr">locale/x6coin_hr.qm</file>
+        <file alias="it">locale/x6coin_it.qm</file>
+        <file alias="ja">locale/x6coin_ja.qm</file>
+        <file alias="ko_KR">locale/x6coin_ko_KR.qm</file>
+        <file alias="nl">locale/x6coin_nl.qm</file>
+        <file alias="pl">locale/x6coin_pl.qm</file>
+        <file alias="pt">locale/x6coin_pt.qm</file>
+        <file alias="pt_BR">locale/x6coin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/x6coin_ro_RO.qm</file>
+        <file alias="ru">locale/x6coin_ru.qm</file>
+        <file alias="sk">locale/x6coin_sk.qm</file>
+        <file alias="sv">locale/x6coin_sv.qm</file>
+        <file alias="tr">locale/x6coin_tr.qm</file>
+        <file alias="uk">locale/x6coin_uk.qm</file>
+        <file alias="zh_CN">locale/x6coin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/x6coin_zh_TW.qm</file>
+    </qresource>
+</RCC>
